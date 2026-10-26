@@ -1,0 +1,417 @@
+{
+  "suite_1": {
+    "contention": {
+      "OW_0": {
+        "TASLock": {
+          "mean": 123.52,
+          "std": 0.79,
+          "min": 122.12,
+          "max": 124.69
+        },
+        "TTASLock": {
+          "mean": 122.45,
+          "std": 0.21,
+          "min": 122.04,
+          "max": 122.63
+        },
+        "TTASBackoffLock": {
+          "mean": 123.31,
+          "std": 0.9,
+          "min": 122.21,
+          "max": 124.82
+        },
+        "TicketLock (FIFO)": {
+          "mean": 130.54,
+          "std": 0.75,
+          "min": 129.47,
+          "max": 131.69
+        },
+        "CLHLock (Queue)": {
+          "mean": 130.11,
+          "std": 0.68,
+          "min": 129.12,
+          "max": 130.84
+        },
+        "MCSLock (Queue)": {
+          "mean": 130.37,
+          "std": 1.04,
+          "min": 128.48,
+          "max": 131.81
+        },
+        "StdMutexLock (baseline)": {
+          "mean": 158.9,
+          "std": 3.83,
+          "min": 155.39,
+          "max": 165.6
+        }
+      },
+      "OW_1": {
+        "TASLock": {
+          "mean": 130.92,
+          "std": 1.38,
+          "min": 129.79,
+          "max": 133.87
+        },
+        "TTASLock": {
+          "mean": 133.73,
+          "std": 5.61,
+          "min": 125.77,
+          "max": 141.05
+        },
+        "TTASBackoffLock": {
+          "mean": 136.44,
+          "std": 19.91,
+          "min": 127.89,
+          "max": 192.64
+        },
+        "TicketLock (FIFO)": {
+          "mean": 130.37,
+          "std": 1.43,
+          "min": 129.0,
+          "max": 133.71
+        },
+        "CLHLock (Queue)": {
+          "mean": 129.68,
+          "std": 0.89,
+          "min": 128.51,
+          "max": 131.22
+        },
+        "MCSLock (Queue)": {
+          "mean": 130.7,
+          "std": 5.51,
+          "min": 128.35,
+          "max": 146.34
+        },
+        "StdMutexLock (baseline)": {
+          "mean": 287.25,
+          "std": 15.57,
+          "min": 278.78,
+          "max": 331.14
+        }
+      },
+      "OW_5": {
+        "TASLock": {
+          "mean": 193.79,
+          "std": 3.2,
+          "min": 192.05,
+          "max": 202.63
+        },
+        "TTASLock": {
+          "mean": 192.48,
+          "std": 1.05,
+          "min": 190.81,
+          "max": 194.13
+        },
+        "TTASBackoffLock": {
+          "mean": 192.6,
+          "std": 1.07,
+          "min": 191.25,
+          "max": 194.55
+        },
+        "TicketLock (FIFO)": {
+          "mean": 193.52,
+          "std": 2.32,
+          "min": 191.39,
+          "max": 199.43
+        },
+        "CLHLock (Queue)": {
+          "mean": 205.54,
+          "std": 34.56,
+          "min": 192.12,
+          "max": 303.24
+        },
+        "MCSLock (Queue)": {
+          "mean": 192.7,
+          "std": 1.88,
+          "min": 190.75,
+          "max": 197.19
+        },
+        "StdMutexLock (baseline)": {
+          "mean": 199.95,
+          "std": 3.54,
+          "min": 195.33,
+          "max": 206.83
+        }
+      }
+    },
+    "scalability": {
+      "T_1": {
+        "TASLock": {
+          "mean": 58.14,
+          "std": 0.31,
+          "min": 57.79,
+          "max": 58.71
+        },
+        "TTASLock": {
+          "mean": 57.83,
+          "std": 0.13,
+          "min": 57.71,
+          "max": 58.1
+        },
+        "TTASBackoffLock": {
+          "mean": 58.26,
+          "std": 0.4,
+          "min": 57.8,
+          "max": 59.25
+        },
+        "TicketLock (FIFO)": {
+          "mean": 57.95,
+          "std": 0.26,
+          "min": 57.74,
+          "max": 58.5
+        },
+        "CLHLock (Queue)": {
+          "mean": 57.94,
+          "std": 0.31,
+          "min": 57.69,
+          "max": 58.5
+        },
+        "MCSLock (Queue)": {
+          "mean": 57.97,
+          "std": 0.16,
+          "min": 57.66,
+          "max": 58.18
+        },
+        "StdMutexLock (baseline)": {
+          "mean": 57.9,
+          "std": 0.22,
+          "min": 57.68,
+          "max": 58.29
+        }
+      },
+      "T_2": {
+        "TASLock": {
+          "mean": 61.98,
+          "std": 1.54,
+          "min": 61.12,
+          "max": 66.29
+        },
+        "TTASLock": {
+          "mean": 62.16,
+          "std": 1.52,
+          "min": 61.2,
+          "max": 66.13
+        },
+        "TTASBackoffLock": {
+          "mean": 61.77,
+          "std": 0.88,
+          "min": 61.39,
+          "max": 64.25
+        },
+        "TicketLock (FIFO)": {
+          "mean": 61.72,
+          "std": 0.82,
+          "min": 61.23,
+          "max": 64.0
+        },
+        "CLHLock (Queue)": {
+          "mean": 61.58,
+          "std": 0.65,
+          "min": 61.19,
+          "max": 63.37
+        },
+        "MCSLock (Queue)": {
+          "mean": 63.03,
+          "std": 3.5,
+          "min": 61.51,
+          "max": 72.92
+        },
+        "StdMutexLock (baseline)": {
+          "mean": 140.11,
+          "std": 2.3,
+          "min": 135.87,
+          "max": 143.3
+        }
+      },
+      "T_4": {
+        "TASLock": {
+          "mean": 133.84,
+          "std": 5.8,
+          "min": 130.33,
+          "max": 149.55
+        },
+        "TTASLock": {
+          "mean": 140.43,
+          "std": 25.15,
+          "min": 126.96,
+          "max": 210.38
+        },
+        "TTASBackoffLock": {
+          "mean": 133.59,
+          "std": 4.46,
+          "min": 127.75,
+          "max": 142.21
+        },
+        "TicketLock (FIFO)": {
+          "mean": 129.38,
+          "std": 0.6,
+          "min": 128.68,
+          "max": 130.4
+        },
+        "CLHLock (Queue)": {
+          "mean": 129.25,
+          "std": 0.65,
+          "min": 128.33,
+          "max": 130.48
+        },
+        "MCSLock (Queue)": {
+          "mean": 129.13,
+          "std": 0.52,
+          "min": 128.56,
+          "max": 129.97
+        },
+        "StdMutexLock (baseline)": {
+          "mean": 282.45,
+          "std": 2.6,
+          "min": 278.37,
+          "max": 286.02
+        }
+      },
+      "T_8": {
+        "TASLock": {
+          "mean": 1107.76,
+          "std": 34.27,
+          "min": 1019.29,
+          "max": 1139.2
+        },
+        "TTASLock": {
+          "mean": 379.27,
+          "std": 50.46,
+          "min": 321.54,
+          "max": 502.83
+        },
+        "TTASBackoffLock": {
+          "mean": 310.89,
+          "std": 38.63,
+          "min": 269.08,
+          "max": 378.37
+        },
+        "TicketLock (FIFO)": {
+          "mean": 1233.24,
+          "std": 830.43,
+          "min": 794.65,
+          "max": 3546.38
+        },
+        "CLHLock (Queue)": {
+          "mean": 1079.51,
+          "std": 240.54,
+          "min": 830.37,
+          "max": 1651.64
+        },
+        "MCSLock (Queue)": {
+          "mean": 976.46,
+          "std": 172.75,
+          "min": 816.91,
+          "max": 1376.22
+        },
+        "StdMutexLock (baseline)": {
+          "mean": 560.87,
+          "std": 8.13,
+          "min": 546.19,
+          "max": 570.17
+        }
+      },
+      "T_16_oversubscription": {
+        "tas": {
+          "mean": 4261.12,
+          "std": 91.07
+        },
+        "ttas": {
+          "mean": 1276.57,
+          "std": 96.9
+        },
+        "ttas_backoff": {
+          "mean": 1265.19,
+          "std": 207.59
+        },
+        "std": {
+          "mean": 1139.64,
+          "std": 5.63
+        }
+      }
+    }
+  },
+  "suite_2": {
+    "torture": {
+      "mean_time_ms": 510.75,
+      "std_time_ms": 11.1,
+      "mean_abort_rate": 88.57,
+      "std_abort_rate": 0.49,
+      "mean_throughput": 78348.88,
+      "std_throughput": 1650.08,
+      "deadlocks": 0
+    },
+    "read_ratio_sweep": {
+      "RR_0.99": {
+        "mean_throughput": 32219046.08,
+        "std_throughput": 601301.87,
+        "mean_time_ms": 0.62,
+        "std_time_ms": 0.01,
+        "mean_abort_rate": 0.0
+      },
+      "RR_0.9": {
+        "mean_throughput": 21116695.54,
+        "std_throughput": 9415279.07,
+        "mean_time_ms": 1.15,
+        "std_time_ms": 0.53,
+        "mean_abort_rate": 0.02
+      },
+      "RR_0.5": {
+        "mean_throughput": 2339875.15,
+        "std_throughput": 1093610.12,
+        "mean_time_ms": 10.23,
+        "std_time_ms": 4.52,
+        "mean_abort_rate": 0.22
+      },
+      "RR_0.1": {
+        "mean_throughput": 915338.03,
+        "std_throughput": 198317.78,
+        "mean_time_ms": 22.81,
+        "std_time_ms": 4.99,
+        "mean_abort_rate": 0.26
+      }
+    },
+    "timeout_sweep": {
+      "TO_50us": {
+        "mean_abort_rate": 1.56,
+        "std_abort_rate": 0.14,
+        "mean_time_ms": 6.84,
+        "std_time_ms": 0.43,
+        "mean_throughput": 2934019.78,
+        "std_throughput": 184640.54
+      },
+      "TO_200us": {
+        "mean_abort_rate": 1.61,
+        "std_abort_rate": 0.16,
+        "mean_time_ms": 22.89,
+        "std_time_ms": 2.56,
+        "mean_throughput": 885166.27,
+        "std_throughput": 112918.16
+      },
+      "TO_1000us": {
+        "mean_abort_rate": 1.65,
+        "std_abort_rate": 0.23,
+        "mean_time_ms": 109.34,
+        "std_time_ms": 14.7,
+        "mean_throughput": 185985.89,
+        "std_throughput": 25480.9
+      },
+      "TO_5000us": {
+        "mean_abort_rate": 1.88,
+        "std_abort_rate": 0.2,
+        "mean_time_ms": 537.13,
+        "std_time_ms": 55.4,
+        "mean_throughput": 37620.8,
+        "std_throughput": 4163.61
+      }
+    },
+    "recursive_nested": {
+      "mean_time_ms": 3.85,
+      "std_time_ms": 1.57,
+      "mean_abort_rate": 0.02,
+      "mean_throughput": 6073502.56,
+      "std_throughput": 2485619.08,
+      "deadlocks": 0
+    }
+  }
+}
