@@ -15,5 +15,3 @@ target_link_libraries(parcomp
     PUBLIC
         Threads::Threads
 )
-
-set_project_warnings(parcomp)

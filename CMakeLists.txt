@@ -13,10 +13,6 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 # Export compile commands for IDEs (clangd, vscode, antigravity)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-# Include custom cmake modules
-list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
-include(CompilerWarnings)
-
 # Dependencies
 find_package(Threads REQUIRED)
 
